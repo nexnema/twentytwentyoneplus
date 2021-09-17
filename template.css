@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('https://cdn.cleveraj.net/fonts/WebYekan.eot');
+    src: url('https://cdn.cleveraj.net/fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.woff') format('woff'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.ttf') format('truetype'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.svg#WebYekan') format('svg');
+}
+
+/* Site */
+* {
+    font-family: 'Yekan', Arial !important;
+}
+
+:root {
+	--global--font-size-page-title: 2.5rem;
+}
+@media only screen and (min-width: 652px) {
+	:root {
+    	--heading--font-size-h3: 1.5rem;
+    	--heading--font-size-h2: 2rem;
+	}
+}
+@media only screen and (min-width: 822px) {
+	:root {
+    	--responsive--aligndefault-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 822px);
+	}
+}
+
+a {text-decoration-style: dotted!important;}
+a:hover {color: #0072ff!important;}
+
+p {text-align: justify;}
+
+nav.navigation.post-navigation {display: none;}
