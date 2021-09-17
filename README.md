@@ -1,3 +1,3 @@
-<link href="https://cdn.cleveraj.net/twentytwentyoneplus/style.css" rel="stylesheet" type="text/css">
+https://cdn.cleveraj.net/twentytwentyoneplus/style.css
 
-Add this code to wordpress twentytwentyone head.
+Add this CSS code to wordpress twentytwentyone head.
